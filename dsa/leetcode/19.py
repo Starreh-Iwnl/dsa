@@ -7,14 +7,14 @@
 
 # Definition for singly-linked list.
 
-class Node:
+class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
 
 class Solution:
-    def removeNthFromEnd(self, head: Node, n: int) -> Node:
-        tmp = Node(0, head)
+    def removeNthFromEnd(self, head, n):
+        tmp = ListNode(0, head)
         
         left = tmp
         right = head

@@ -6,7 +6,7 @@
 
 # Definition for a binary tree node
 
-class Node:
+class ListNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
@@ -15,7 +15,7 @@ class Node:
 from collections import deque
 
 class Solution:
-    def rightSideView(self, root: Node) -> list[int]:
+    def rightSideView(self, root):
         res = []
         q = deque([root])
 

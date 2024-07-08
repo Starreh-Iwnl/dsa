@@ -5,7 +5,7 @@
 """
 
 class Solution:
-    def lengthOfLongestSubstring(self, s: str) -> int:
+    def lengthOfLongestSubstring(self, s):
         l, r, res = 0, 0, 0
         visited = set()
 

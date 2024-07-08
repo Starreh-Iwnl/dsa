@@ -7,7 +7,7 @@
 import collections
 
 class Solution:
-    def totalFruit(self, fruits: list[int]) -> int:
+    def totalFruit(self, fruits):
         
         count = collections.defaultdict(int)
         l, total, res = 0, 0, 0

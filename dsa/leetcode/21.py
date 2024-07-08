@@ -12,7 +12,7 @@ class ListNode:
         self.next = next
 
 class Solution:
-    def mergeTwoLists(self, list1: ListNode, list2: ListNode) -> ListNode:
+    def mergeTwoLists(self, list1, list2):
         head = ListNode()
         tail = head
 

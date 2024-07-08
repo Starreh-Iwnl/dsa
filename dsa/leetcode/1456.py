@@ -5,7 +5,7 @@
 """
 
 class Solution:
-    def maxVowels(self, s: str, k: int) -> int:
+    def maxVowels(self, s, k):
         l, r, curr, res = 0, 0, 0, 0
         vowel = {"a", "e", "i", "o", "u"}
 

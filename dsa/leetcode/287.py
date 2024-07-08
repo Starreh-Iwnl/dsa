@@ -5,13 +5,11 @@
 """
 
 class Solution:
-    def findDuplicate(self, arr: list[int]) -> int:
+    def findDuplicate(self, arr]):
+
         for i in range(len(arr)):
             if arr[i] != i + 1:
-                
                 if arr[arr[i] - 1] == arr[i]:
                     return arr[i]
-
                 arr[arr[i] - 1], arr[i] = arr[i], arr[arr[i] - 1]
-
         return -1
