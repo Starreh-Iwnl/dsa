@@ -5,7 +5,7 @@
 """
 
 class Solution:
-    def findDuplicate(self, arr]):
+    def findDuplicate(self, arr):
 
         for i in range(len(arr)):
             if arr[i] != i + 1:
